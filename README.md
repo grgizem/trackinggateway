@@ -19,6 +19,7 @@ After creating API Gateway add 'image/gif' to "Binary media types" in the API Ga
 Copy Invoke Url and paste on test.html file and try on your browser.
 
 You can also test is manually by calling invoke url as follows,
+
 https://<INVOKE_URL>/track.gif?client_id=123&origin=IST&destination=JFK&price=500&currency=TRY&date=20/01/2019
 
 You can check 1x1 pixel image with,
