@@ -3,6 +3,7 @@ from datetime import datetime
 
 def handler(event, context):
 
+    params = event['queryStringParameters']
     dynamodb = boto3.client('dynamodb')
     dynamodb.put_item(TableName="track", Item={'client_id': {'S':params['client_id']},
                                                'destination': {'S':params['destination']},
